@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+main{
+    display: flex;
+    height: 100vh;
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: rgba(255, 121, 120, 0.93);
+    justify-content: space-evenly;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 500px;
+}
+
+.content p{
+    font-weight: 500;
+    width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    background-color: #5d54a3;
+    border-radius: 10px;
+    padding: 20px 115px;
+    box-shadow: rgba(43, 43, 44, 0.23) 0 10px 0;
+    margin-bottom: 25px;
+}
+
+.form span{
+    font-weight: 400;
+}
+
+.form-content{
+    display: flex;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-content input{
+    color: #5d54a3;
+    padding: 15px;
+    border-radius: 5px;
+    border: gray solid 1px;
+}
+input:focus{
+    border-color: #5d54a3;
+    outline: none;
+}
+
+.button{
+    background-color: rgb(55, 204, 138);
+    border-radius: 5px;
+    border: none;
+    padding: 15px 100px;
+    box-shadow: #49ad81 0 4px 0;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: #49ad81;
+}
+
+.button:focus{
+    outline: none;
+
+}
+.text{
+    color: rgba(93, 84, 163, 0.44);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text span{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 121, 120);
+}
+
+.form-content div{
+    color: red;
+    font-size: large;
+}
